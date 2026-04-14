@@ -6,9 +6,9 @@ from playwright.async_api import async_playwright
 # ── CONFIGURAÇÃO ──────────────────────────────────────────────────────────────
 URL_SEI = "https://sei4.pf.gov.br/sei/"
 SESSION_FILE = "session.json"
-NUMERO_DOC = "145514577"  # input("Número do documento modelo: ")
-NUMERO_PROCESSO = "08455.007609/2026-11"  # input("Número do processo SEI: ")
-ARQUIVO_XLSX = "DEAIN_procedimentos_20260409.xlsx"  # input("Nome do arquivo .xlsx (na pasta do projeto): ")
+NUMERO_DOC = "145610027"  # input("Número do documento modelo: ")
+NUMERO_PROCESSO = "08455.008145/2026-60"  # input("Número do processo SEI: ")
+ARQUIVO_XLSX = "_DRE_procedimentos_20260413.xlsx"  # input("Nome do arquivo .xlsx (na pasta do projeto): ")
 ARQUIVO_XLSX = os.path.join(os.path.dirname(os.path.abspath(__file__)), ARQUIVO_XLSX)
 
 
